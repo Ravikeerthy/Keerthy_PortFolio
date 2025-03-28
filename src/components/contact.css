@@ -1,0 +1,58 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"); */
+
+.contact-container {
+  height: 100vh;
+  /* background: linear-gradient(-45deg, #121212, #474646, #34302f, #130e0f); */
+  background-size: 400% 400%;
+  animation: gradientAnimation 8s ease infinite;
+  border-radius: 20px;
+}
+
+
+.contact-card {
+    background: rgb(150, 147, 147);
+    color: white;
+    max-width: 450px;
+    width: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.p-tag{
+    color: white;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .input-field {
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border: 2px solid #ff758c;
+    box-shadow: 0 0 10px rgba(255, 117, 140, 0.5);
+  }
+
+.social-icons a {
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #cfefc6;
+}
+.btn{
+    background-color: rgb(68, 139, 46);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(72, 189, 72);
+    color: white;
+
+}

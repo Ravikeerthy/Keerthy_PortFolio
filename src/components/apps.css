@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.side-navbar {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.side-navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-navbar li {
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.section {
+    min-height: 100vh;
+    padding: 80px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background: linear-gradient(-45deg black, grey, black, brown);
+
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,44 @@
+/* Skills Section */
+.skills {
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  /* Section Heading */
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ff6b6b;
+  }
+  
+  /* Skill Card Styling */
+  .skill-card {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Skill Icon */
+  .skill-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+  
+  /* Skill Name */
+  .skill-card h4 {
+    font-size: 1.5rem;
+    color: #f0eaea;
+  }
+  
