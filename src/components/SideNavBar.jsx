@@ -1,5 +1,5 @@
 import React from 'react';
-import './SideNavbar.css';
+import './sidebar.css';
 
 const SideNavbar = ({ scrollToSection, aboutRef, skillsRef, projectsRef, resumeRef, contactRef }) => {
   return (

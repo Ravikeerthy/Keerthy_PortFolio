@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './navbar.css';
 
 const Navbar = ({ scrollToSection, aboutRef, skillsRef, projectsRef, resumeRef, contactRef }) => {
   return (
