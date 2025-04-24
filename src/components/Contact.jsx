@@ -21,6 +21,10 @@ const Contact = () => {
         headers: {
           'Content-Type': 'application/json',
         }
+        // const response = await axios.post('http://localhost:5000/contact', values, {
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   }
       });
       if (response.status === 200) {
         toast.success(response.data.message || 'Your message has been sent!');
