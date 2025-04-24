@@ -5,8 +5,8 @@ import profileImg from "./media/hi-image.jpg";
 const About = () => {
   const roles = [
     "Keerthana Ravi",
-    "Frontend Developer",
-    "Backend Developer",
+    "FrontEnd Developer",
+    "BackEnd Developer",
     "Full Stack Developer",
   ];
   const [text, setText] = useState("");
@@ -39,7 +39,7 @@ const About = () => {
       <div className="row align-items-center">
         <div className="col-md-8">
           <div className="typewriter-container">
-            <h1>Hi there! 👋 I am</h1>
+            <h1>Hi there!👋 I am</h1>
 
             {/* Editable wording goes here */}
             <h2 className="typewriter">{text}</h2>
