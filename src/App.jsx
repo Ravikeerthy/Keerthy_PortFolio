@@ -40,7 +40,7 @@ const App = () => {
       <section ref={skillsRef} id="skills"><Skills /></section>
       <section ref={projectsRef} id="projects"><Projects /></section>
       <section ref={resumeRef} id="resume"><Resume /></section>
-      {/* <section ref={contactRef} id="contact"><Contact /></section> */}
+      <section ref={contactRef} id="contact"><Contact /></section>
       <section ref={footerRef} id="contact"><Footer /></section>
     </div>
   );

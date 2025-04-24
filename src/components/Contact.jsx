@@ -6,7 +6,8 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
+     receiver: 'ravikeerthy1807@gmail.com'
   });
 
   const handleChange = (e) => {
@@ -20,7 +21,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('/api/contact', {
+    const response = await fetch('http://localhost:5000/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
