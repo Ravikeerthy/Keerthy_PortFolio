@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeFile from './media/KEERTHANA Ravi_resume.pdf'; 
+import resumeFile from './media/KEERTHANA_RAVI_Resume.pdf'; 
 import "./resume.css"
 
 const ResumeDownload = () => {
