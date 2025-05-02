@@ -62,11 +62,6 @@ const About = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+1234567890">
-                    <i className="fa-solid fa-phone"></i>
-                  </a>
-                </li>
-                <li>
                   <a
                     href="https://www.linkedin.com/in/keerthana-ravi-a0b803228/"
                     target="_blank"

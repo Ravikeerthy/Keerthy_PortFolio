@@ -1,21 +1,28 @@
 .resume-download {
-    text-align: center;
-    margin-top: 50px;
-    color: white;
-  }
+  text-align: center;
+  /* margin-top: 50px; */
+  color: white;
+}
 
-  .download-button {
-    background-color: #4CAF50; 
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .download-button:hover {
-    background-color: #45a049;
-  }
-  
+.fixed-download {
+  position: fixed;
+  top: 80px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.download-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}

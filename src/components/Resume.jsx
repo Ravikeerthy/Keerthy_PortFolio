@@ -1,15 +1,17 @@
 import React from 'react';
-import resumeFile from './media/KEERTHANA_RAVI_Resume.pdf'; 
+import resumeFile from './media/KEERTHANA RAVI_RES.pdf'; 
 import "./resume.css"
 
 const ResumeDownload = () => {
   return (
     <div className="resume-download">
-      <h2>Download My Resume</h2>
+   
+    <div className="fixed-download">
       <a href={resumeFile} download="My_Resume.pdf">
         <button className="download-button">Download Resume</button>
       </a>
     </div>
+  </div>
   );
 };
 
