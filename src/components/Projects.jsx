@@ -17,7 +17,7 @@ const projectsData = [
     title: "Front-End Layouts",
     image: project2,
     description: "This Frontend layouts define the structure and design of a website, ensuring a responsive and user-friendly experience. In this eCommerce websites, layouts often include product grids, sliders, and carousels to showcase items attractively.",
-    link: "https://front-end-tasks.netlify.app/",
+    link: "https://front-end-layouts.netlify.app/",
     githubLink: "https://github.com/Ravikeerthy/Front-End-Task.git"
   },
   {
